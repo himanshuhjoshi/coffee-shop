@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    background-color: aquamarine;
+    padding: 20px 15% 80px 15%;
+    margin-bottom: 32px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid seagreen;
+    border-radius: 50%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-button {
+    max-width: 35%;
+    padding: 8px 16px 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #3882F6;
+    color: white;
+}
+
+.hero-image img{
+    max-width: 300px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Info Section */
+.info-section {
+    padding: 20px 15% 80px 15%;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 1.3em;
+}
+
+.card-img img{
+    border: 2px solid blue;
+    border-radius: 5px;
+    max-width: 100px;
+    margin-bottom: 20px
+}
+
+/* quote section */
+.quote-section {
+    padding: 60px 15% 80px 15%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-person {
+    font-weight: 900;
+    margin-left: auto;
+    font-size: 24px;
+}
+
+/* action section */
+.action-section {
+    padding: 60px 15% 80px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    padding: 32px 32px;
+    flex: 1;
+    border-radius: 5px;
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-text {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 16px;
+}
+
+.content-container button {
+    padding: 8px 32px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* footer */
+.footer {
+    padding: 32px 32px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
